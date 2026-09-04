@@ -1,0 +1,20 @@
+{
+  "name": "everyinfra-research-plugin",
+  "interface": {
+    "displayName": "Everyinfra Research Plugin"
+  },
+  "plugins": [
+    {
+      "name": "everyinfra-research",
+      "source": {
+        "source": "local",
+        "path": "./plugins/everyinfra-research"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

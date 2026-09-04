@@ -1,0 +1,49 @@
+{
+  "name": "everyinfra-research",
+  "version": "0.1.0",
+  "description": "EveryInfra multi-source fact-checking skill for Codex and Claude Code. Use EverySearch MCP to compare primary sources, verify freshness and produce cited conclusions.",
+  "author": {
+    "name": "EveryInfra",
+    "url": "https://everyinfra.com"
+  },
+  "homepage": "https://api.everyinfra.com/docs",
+  "repository": "https://github.com/everyinfra/everyinfra-research-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "everyinfra",
+    "agent-plugin",
+    "fact-checking",
+    "research",
+    "source-verification",
+    "mcp",
+    "evidence-based",
+    "codex",
+    "claude-code",
+    "agent-skills"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "EveryInfra Research",
+    "shortDescription": "Multi-source fact checking with explicit evidence gaps",
+    "longDescription": "EveryInfra Research is a standalone agent skill for multi-source fact checking using EverySearch MCP. It scopes a current claim, compares original sources and dates, and produces a cited conclusion with contradictions and evidence gaps made explicit. Use it when the deliverable is a defensible answer to a current question, not merely a search-result list. This standalone skill calls EverySearch directly; a separate EverySearch plugin is not required.",
+    "developerName": "EveryInfra",
+    "category": "Engineering",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://everyinfra.com",
+    "privacyPolicyURL": "https://everyinfra.com/privacy",
+    "termsOfServiceURL": "https://everyinfra.com/terms",
+    "brandColor": "#287A73",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/logo.svg",
+    "logoDark": "./assets/logo-dark.svg",
+    "defaultPrompt": [
+      "Verify this current product claim as of the date I provide. Prefer original documentation and separate confirmed facts from gaps.",
+      "These two sources disagree. Compare their dates, scope and original evidence before giving a conclusion.",
+      "Cross-check this claim using the live available mechanisms. If crosscheck is unavailable, disclose the fallback and do not describe it as equivalent."
+    ]
+  }
+}

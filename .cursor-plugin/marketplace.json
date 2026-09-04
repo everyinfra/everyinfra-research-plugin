@@ -1,0 +1,13 @@
+{
+  "name": "everyinfra-research-plugin",
+  "owner": {
+    "name": "EveryInfra"
+  },
+  "plugins": [
+    {
+      "name": "everyinfra-research",
+      "source": "./plugins/everyinfra-research",
+      "description": "EveryInfra multi-source fact-checking skill for Codex and Claude Code. Use EverySearch MCP to compare primary sources, verify freshness and produce cited conclusions."
+    }
+  ]
+}

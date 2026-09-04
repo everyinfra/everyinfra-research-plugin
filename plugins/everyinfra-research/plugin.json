@@ -1,0 +1,24 @@
+{
+  "name": "everyinfra-research",
+  "version": "0.1.0",
+  "description": "EveryInfra multi-source fact-checking skill for Codex and Claude Code. Use EverySearch MCP to compare primary sources, verify freshness and produce cited conclusions.",
+  "author": {
+    "name": "EveryInfra",
+    "url": "https://everyinfra.com"
+  },
+  "homepage": "https://api.everyinfra.com/docs",
+  "repository": "https://github.com/everyinfra/everyinfra-research-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "everyinfra",
+    "agent-plugin",
+    "fact-checking",
+    "research",
+    "source-verification",
+    "mcp",
+    "evidence-based",
+    "codex",
+    "claude-code",
+    "agent-skills"
+  ]
+}
