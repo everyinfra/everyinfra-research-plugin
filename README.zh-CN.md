@@ -1,5 +1,8 @@
 # EveryInfra Research：多源事实核查
 
+<!-- rq223-banner -->
+<p align="center"><img alt="EveryInfra Research：多源事实核查，证据缺口写明" src="assets/banner-zh.jpg" width="100%"></p>
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">

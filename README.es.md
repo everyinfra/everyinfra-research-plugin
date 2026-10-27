@@ -1,5 +1,8 @@
 # EveryInfra Research — Verificación con varias fuentes y lagunas de evidencia a la vista
 
+<!-- rq223-banner -->
+<p align="center"><img alt="EveryInfra Research — Verificación con varias fuentes y lagunas de evidencia a la vista" src="assets/banner-es.jpg" width="100%"></p>
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
